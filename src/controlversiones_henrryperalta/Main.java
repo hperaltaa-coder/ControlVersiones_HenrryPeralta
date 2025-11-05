@@ -33,6 +33,11 @@ public class Main {
         double n3 = sc.nextDouble();
         double promedio = (n1 + n2 + n3) / 3;
         System.out.println("El promedio es: " + promedio);
+        
+        if (n1 < 0 || n2 < 0 || n3 < 0) {
+    System.out.println("Error: las notas no pueden ser negativas.");
+    return;
+    }
     }
     
 }
